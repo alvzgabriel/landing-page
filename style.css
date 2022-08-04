@@ -52,7 +52,7 @@ h2 {
     font-size: 15px;
 }
 
-.container a:hover {
+.container .links a:hover {
     color: #0e5cca;
 }
 
@@ -77,6 +77,12 @@ h2 {
 .header p {
     font-size: 18px;
     color: #E5E7EB;
+    line-height: 1.2;
+}
+
+.header a {
+    color: #3882f6;
+    text-decoration: underline;
 }
 
 .header button {
@@ -90,7 +96,8 @@ h2 {
 }
 
 .header img {
-    max-width: 400px;
+    max-width: 320px;
+    border-radius: 500px;
 }
 
 .header .container div {
@@ -102,6 +109,7 @@ h2 {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    min-height: 400px;
 }
 
 .boxes h2 {
@@ -128,10 +136,18 @@ h2 {
 
 .boxes .text {
     text-align: center;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .boxes .border img {
     width: 170px;
+}
+
+.boxes .cards .js {
+    border-radius: 20px;
 }
 
 .boxes .border {
